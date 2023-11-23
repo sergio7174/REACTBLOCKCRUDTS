@@ -1,0 +1,65 @@
+.posts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 160px;
+    background-color: #323232;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  h2,
+  h3 {
+    margin: 0;
+  }
+  
+  .card-header-wrapper {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text-container {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #2b2a2a;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .edit-btn {
+    margin-right: 15px;
+  }
+  
+  .edit-btn:hover {
+    background-color: #f0a04b;
+    transition: all 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    /* background-color: #d21312; */
+    background-color: #b04759;
+    transition: all 0.3s ease;
+  }
+  
